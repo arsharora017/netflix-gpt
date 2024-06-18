@@ -28,7 +28,7 @@ const Login = () => {
       email.current.value,
       password.current.value
     );
-    //console.log(email.current.value, password.current.value);
+
     setErrorMessage(message);
     if (message) return;
 
